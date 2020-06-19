@@ -14,9 +14,12 @@ export default (state, action) => {
       return {
         //spread the state, return a new state with the todos array changed in that todo matching the payload id is not included in the array.
         ...state,
+        //filter method takes an array and reduces an array of a smaller size
+        //here inside filter, we are saying, return a new array with the condition that no todo with id that matches the payload is included in it.
         todos: state.todos.filter((todo) => todo.id !== action.payload),
       };
     default:
+      //if no action.type doesnt match any case, just return the state as received.
       return state;
   }
 };
