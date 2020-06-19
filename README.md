@@ -5,4 +5,4 @@ You can find all the components in src/components/**
 
 **If you have any questions, post them as issues so I may answer them.**
 
-*If this helped you in any way, please don't forget to leave a star :+1*
+*If this helped you in any way, please don't forget to leave a star :+1:*
